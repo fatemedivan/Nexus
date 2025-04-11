@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+@theme{
+  --font-Inter : Inter , "sans-serif";
+  --color-black-primery : #171618;
+  --color-blue-primery : #2B44E7;
+  --color-gray-primery : #5B5A59;
+  --text-15 : 0.96875rem;
+  --text-20 : 1.25rem
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/InterVariable.ttf") format("truetype");
+}
