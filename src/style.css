@@ -1,19 +1,53 @@
 @import "tailwindcss";
 
-@theme{
-  --font-Inter : Inter , "sans-serif";
-  --color-black-primery : #171618;
-  --color-blue-primery : #2B44E7;
-  --color-gray-primery : #5B5A59;
-  --color-highlight : #DBDEEF;
-  --color-222222 : #222222;
-  --text-15 : 0.96875rem;
-  --text-20 : 1.25rem;
-  --text-18 : 1.125rem;
-  --text-40 : 2.5rem;
-  --shadow-btn : 0px 16px 32px -8px rgba(56,56,138,0.12);
-  --color-bordercolor : rgba(56,56,138,0.12);
-  --color-17161833: #17161833
+@theme {
+  --font-Inter: Inter, "sans-serif";
+  --color-black-primery: #171618;
+  --color-blue-primery: #2b44e7;
+  --color-gray-primery: #5b5a59;
+  --color-highlight: #dbdeef;
+  --color-222222: #222222;
+  --text-15: 0.96875rem;
+  --text-20: 1.25rem;
+  --text-18: 1.125rem;
+  --text-40: 2.5rem;
+  --shadow-btn: 0px 16px 32px -8px rgba(56, 56, 138, 0.12);
+  --shadow-btn-search: inset 0px 16px 32px rgba(255, 255, 255, 0.12),
+    inset 0px 8px 8px rgba(255, 255, 255, 0.24),
+    inset 0px -12px 12px rgba(23, 22, 24, 0.08),
+    inset 0px -2px 4px rgba(23, 22, 24, 0.12),
+    0px 16px 8px rgba(23, 22, 24, 0.08), 0px 8px 4px rgba(23, 22, 24, 0.08),
+    0px 4px 2px rgba(23, 22, 24, 0.08), 0px 2px 1px rgba(23, 22, 24, 0.08),
+    0px 0px 1px rgba(23, 22, 24, 0.24);
+  --shadow-btn-sun: inset 0px 8px 8px rgba(255, 255, 255, 0.24),
+    inset 0px -12px 12px rgba(23, 22, 24, 0.08),
+    inset 0px -2px 4px rgba(23, 22, 24, 0.12), 0px 16px 8px rgba(0, 0, 0, 0.08),
+    0px 8px 4px rgba(0, 0, 0, 0.08), 0px 4px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 1px rgba(0, 0, 0, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.24);
+  --shadow-btn-k: inset 0px 0px 4px rgba(23, 22, 24, 0.16),
+    inset 0px 4px 2px rgba(255, 255, 255, 1),
+    inset 0px 12px 24px rgba(255, 255, 255, 1),
+    0px 16px 8px rgba(23, 22, 24, 0.08), 0px 8px 4px rgba(23, 22, 24, 0.08),
+    0px 4px 2px rgba(23, 22, 24, 0.08), 0px 2px 1px rgba(23, 22, 24, 0.08),
+    0px 0px 1px rgba(23, 22, 24, 0.24);
+  --shadow-square: inset 0px 4px 3px rgba(255, 255, 255, 0.24),
+    inset 0px -2px 4px rgba(23, 22, 24, 0.16),
+    0px 16px 8px rgba(23, 22, 24, 0.08), 0px 8px 4px rgba(23, 22, 24, 0.08),
+    0px 4px 2px rgba(23, 22, 24, 0.08), 0px 2px 1px rgba(23, 22, 24, 0.08),
+    0px 0px 1px rgba(23, 22, 24, 0.24);
+  --color-bordercolor: rgba(56, 56, 138, 0.12);
+  --color-17161833: #17161833;
+  --color-yellow-primery: #ffd231;
+  --color-blue-secondery: #2b44e7;
+  --color-orange-primery: #ff9000;
+  --color-pink-primery: #fbb8fd;
+  --color-green-primery: #2bca76;
+  --radius-48: 3rem;
+  --radius-20: 1.25rem;
+  --radius-26: 1.625rem;
+  --radius-30: 1.875rem;
+  --radius-80: 5rem;
+  --radius-36: 2.25rem;
 }
 @font-face {
   font-family: "Inter";
