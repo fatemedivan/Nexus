@@ -6,12 +6,14 @@
   --color-blue-primery : #2B44E7;
   --color-gray-primery : #5B5A59;
   --color-highlight : #DBDEEF;
+  --color-222222 : #222222;
   --text-15 : 0.96875rem;
   --text-20 : 1.25rem;
   --text-18 : 1.125rem;
   --text-40 : 2.5rem;
   --shadow-btn : 0px 16px 32px -8px rgba(56,56,138,0.12);
   --color-bordercolor : rgba(56,56,138,0.12);
+  --color-17161833: #17161833
 }
 @font-face {
   font-family: "Inter";
